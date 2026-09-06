@@ -63,16 +63,23 @@ project/
 ├── .env                     # переменные окружения 
 └── notebooks/
     └── Toxicity_Detector.ipynb       # весь пайплайн: EDA
+
+## 🚀 Быстрый старт
+### 1. Клонирование репозитория
+
+```bash
+git clone https://github.com/lmalborought/Toxicity_Detector.git
+cd Toxicity_Detector
+```
+### 2. Скачайте модель по [ссылке](http://disk.360.yandex.ru/client/disk/data)
+
+### 3. Поместите скачанный файл model_weights.pt в корень проекта
 ```
 Запуск
 Через Docker
 ```bash
 docker build -t toxicity-api .
-docker run --env-file .env -p 8000:8000 toxicity-api
-Локально
-bash
-pip install -r requirements.txt
-uvicorn api:app --reload --port 8000
+docker run -p 8000:8000 toxicity-api
 ```
 Сервис будет доступен на http://localhost:8000. Интерактивная документация — http://localhost:8000/docs.
 ![](pictures/image.png)
