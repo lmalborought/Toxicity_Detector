@@ -60,7 +60,6 @@ project/
 ├── model_weights.pt         # веса дообученной rubert-tiny2
 ├── requirements.txt
 ├── Dockerfile
-├── .env                     # переменные окружения 
 └── notebooks/
     └── Toxicity_Detector.ipynb       # весь пайплайн: EDA
 ```
