@@ -90,7 +90,4 @@ uvicorn api:app --reload --port 8000
 - pymorphy3
 - FastAPI
 - Docker
-
-## Ограничения
-- Датасет ограничен одним источником (Kaggle, ~14k комментариев)
-- 
+ 
