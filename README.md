@@ -85,8 +85,7 @@ docker run -p 8000:8000 toxicity-api
 Сервис будет доступен на http://localhost:8000. Интерактивная документация — http://localhost:8000/docs.
 ![](pictures/image.png)
 ## Пример запроса
-![](pictures/1.png)
-![](pictures/2.png)
+![](pictures/1.png)![](pictures/2.png)
 ## Технологии
 - Python
 - pandas
